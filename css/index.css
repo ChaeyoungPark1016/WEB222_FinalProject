@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'DynaPuff', serif; /*Google Font*/
+}
+
+#header {
+    width: 100%;
+    background: black;
+    height: 60px;
+    font-family:DynaPuff;
+}
+#header span {
+    margin-left: 1%;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+#contents {
+    display: flex;
+    width: 1100px;
+    height: 800px;
+    margin: 0 auto;
+}
+footer {
+    width: 100%;
+    text-align: center;
+    background: black;
+    color: white;
+    font-weight: 700;
+    height: 80px;
+    margin-top:6%;
+}
+table {
+    width:600px;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 6px;
+    margin: 0 auto;
+    height: 800px;
+}
+th{
+    float:left;
+    font-size: 18px;
+}
+td input{
+    width:450px;
+    height: 30px;
+    border-radius: 6px;
+}
+button {
+    margin-top: 1%;;
+    background-color: green;
+    width:100%;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#banner {
+    width: 1150px; 
+    margin: 0 auto; 
+}
+
+#banner img{
+    width:100%;
+    height: 350px;
+}
+#bannerContent1 {
+    width: 500px;
+    margin: 0 auto;
+    padding: 25px;
+    border: 3px dashed orange;
+}
+#bannerContent2 {
+    width: 500px;
+    margin: 0 auto;
+    padding: 25px;
+    border: 3px dashed orange;
+}
+#Introduce {
+    width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    text-align: center;
+}
+#Introduce2 {
+    width: 1100px;
+    margin: 0 auto;  
+    text-align: center;
+}

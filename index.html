@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+    <link rel="DynaPuff" href="https://fonts.google.com/specimen/DynaPuff"> 
+<link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="container">
+
+        <div id="header">
+            <br>
+            <span onclick="location.href='./index.html'" style="color:rgb(117, 122, 128);">
+                  Home</span> <span onclick="location.href='./interest.html'">
+                  Interest</span> <span onclick="location.href='./expert.html'">
+                  Expert</span>
+        </div>
+        <div id="banner">
+            <img src="./banner.png" alt="">
+        </div>
+
+        <br>
+        <div id="Introduce">
+            <h1>
+                <span style="color:green; font-size: 30px;">｜ </span> HOME
+            </h1>
+        <br>
+        <div id="bannerContent1">
+           <p>I declare that my assessment is wholly my own work in accordance with</p>
+           <p>Seneca Academic Policy. No part of this assessment has been copied</p> 
+           <p>manually or electronically from any other source (including web sites)</p>
+           <p>except for ther infomation supplied by the WEB222 instructors and / or</p>
+           <p>mad available in this assessment for my use. I also declare that no part</p>
+           <p>of this assignment has been distributed to other sudents.</p>
+           <br>
+           <p> Chaeyoung Park (011784154)      August 13, 2022</p>
+        </div>
+        <br>
+        <div id="bannerContent2">
+           <p>
+           I studied early childhood education and psychology in Canada for a long time.
+           But I chose computer programming because I wanted another field career, and
+           I am studying at Seneca College! I have chosen Professor Wei Song's class during
+           the second semester's web class and I am very satisfied! I still have a lot to study,
+           but I am learning and experiencing a lot in the last 2nd semester.
+           </p>
+        </div>
+        </div>
+
+        <div id="Introduce2">
+            <span style="color:green; font-weight:bold; font-size: 30px;">Contact Form</span> 
+        <br>
+        <br>
+        <form method="post" action="https://httpbin.org/post" id="frm">
+        <div id="contents"> 
+            <br>
+            <br>
+                <table>
+                   <tr>
+                        <th>Full Name</th>
+                   </tr> 
+                   <tr>
+                        <td><input type="text" placeholder="name" id="name" name="name" ></td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                   </tr> 
+                   <tr>
+                        <td><input type="text" name="email"class="email" placeholder="example@myseneca.com" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td><span class="email_txt" style="color:red;font-weight:bold;"></span></td>
+                    </tr> 
+                    <tr>
+                        <th>address</th>
+                   </tr> 
+                   <tr>
+                        <td><input type="text" id="address" name="address"></td>
+                    </tr>
+                    <tr>
+                        <th>company</th>
+                    </tr> 
+                    <tr>
+                        <td><input type="text" id="company" name="company"></td>
+                    </tr>
+                    <tr>
+                        <th>Job</th>
+                   </tr> 
+                    <tr>
+                        <td><input type="text" id="Job" name="Job"></td>
+                    </tr>  
+                    <tr>
+                        <th>Phone</th>
+                   </tr> 
+                   <tr>
+                        <td><input type="text" class="phoneNumber" name="phone" placeholder="(999)-9999-9999" id="phone" maxlength="12"></td>
+                    </tr> 
+                    <tr>
+                        <th>Message</th>
+                   </tr> 
+                   <tr>
+                        <td><textarea cols="95" rows="20" id="message" name="message"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" onclick="frmSub()">Submit</button></td>
+                    </tr> 
+                </table>
+            </div>
+            </form>
+            <br>
+            <br>
+    </div>
+    <footer>
+        <br><br>
+        Chaeyoung Park, Copyright @ 2022
+    </footer>
+<script src="./js/index.js"></script>
+</body>
+</html>
